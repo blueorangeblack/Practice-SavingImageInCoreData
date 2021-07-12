@@ -14,6 +14,7 @@
 		124424B4269B579100BACA77 /* SavingImageInCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 124424B2269B579100BACA77 /* SavingImageInCoreData.xcdatamodeld */; };
 		124424B6269B579200BACA77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124424B5269B579200BACA77 /* Assets.xcassets */; };
 		124424B9269B579200BACA77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124424B7269B579200BACA77 /* LaunchScreen.storyboard */; };
+		12784525269BE401005D017C /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12784524269BE401005D017C /* DataBaseHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		124424B5269B579200BACA77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		124424B8269B579200BACA77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		124424BA269B579200BACA77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12784524269BE401005D017C /* DataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 				124424A9269B579100BACA77 /* AppDelegate.swift */,
 				124424AB269B579100BACA77 /* SceneDelegate.swift */,
 				124424AD269B579100BACA77 /* ViewController.swift */,
+				12784524269BE401005D017C /* DataBaseHelper.swift */,
+				124424B2269B579100BACA77 /* SavingImageInCoreData.xcdatamodeld */,
 				124424AF269B579100BACA77 /* Main.storyboard */,
 				124424B5269B579200BACA77 /* Assets.xcassets */,
 				124424B7269B579200BACA77 /* LaunchScreen.storyboard */,
 				124424BA269B579200BACA77 /* Info.plist */,
-				124424B2269B579100BACA77 /* SavingImageInCoreData.xcdatamodeld */,
 			);
 			path = SavingImageInCoreData;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				124424AA269B579100BACA77 /* AppDelegate.swift in Sources */,
 				124424AC269B579100BACA77 /* SceneDelegate.swift in Sources */,
 				124424B4269B579100BACA77 /* SavingImageInCoreData.xcdatamodeld in Sources */,
+				12784525269BE401005D017C /* DataBaseHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
